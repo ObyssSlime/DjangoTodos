@@ -1,12 +1,12 @@
 # Django Todos
 
-Sebuah program yang merupakan bagian dari perencanaan yang berupa sekumpulan daftar tugas yang perlu diselesaikan dalam rentan waktu tertentu.
+A program that is part of a plan in the form of a list of tasks that need to be completed within a certain time frame.
 
 ## Screenshots
 
-![App Screenshot](https://github.com/ObyssSlime/github-image/blob/main/2022-12-16_09-43.png?raw=true)
+![App Screenshot](https://github.com/ObyssSlime/github-image/blob/main/2022-12-16_18-47.png?raw=true)
 
-![App Screenshot](https://github.com/ObyssSlime/github-image/blob/main/2022-12-16_09-43_1.png?raw=true)
+![App Screenshot](https://github.com/ObyssSlime/github-image/blob/main/2022-12-16_18-47_1.png?raw=true)
 
 ## Installation
 
