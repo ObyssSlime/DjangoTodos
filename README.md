@@ -4,9 +4,9 @@ A program that is part of a plan in the form of a list of tasks that need to be 
 
 ## Screenshots
 
-![App Screenshot](https://github.com/ObyssSlime/github-image/blob/main/2022-12-16_18-47.png?raw=true)
+![App Screenshot](https://github.com/ObyssSlime/GithubImages/blob/main/2022-12-16_18-47.png?raw=true)
 
-![App Screenshot](https://github.com/ObyssSlime/github-image/blob/main/2022-12-16_18-47_1.png?raw=true)
+![App Screenshot](https://github.com/ObyssSlime/GithubImages/blob/main/2022-12-16_18-47_1.png?raw=true)
 
 ## Installation
 
