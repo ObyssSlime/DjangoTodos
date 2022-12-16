@@ -22,7 +22,7 @@
 						<h1>Django Todo</h1>				
 						<form action="{% url 'create' %}" method="POST" accept-charset="utf-8">
 							{% csrf_token %}
-							<input type="text" name="title" placeholder="Tambah aktivitas"/>
+							<input type="text" name="title" placeholder="Tambah tugas"/>
 							<input type="submit" value="Tambah" id="submit"/>
 						</form>
 					</header>
