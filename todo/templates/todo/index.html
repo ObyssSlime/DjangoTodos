@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	
+	{% load static %}
+
+	<head>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Django Todo</title>
+		<link rel="stylesheet" href="{% static 'todo/css/style.css' %}" type="text/css" media="screen" title="no title" charset="utf-8">
+
+	</head>
+
+	<body>
+		
+		<section class='todo-app-background'>
+
+			<div class='todo-app-foreground'>
+
+					<header class='header'>
+						<h1>Django Todo</h1>				
+						<form action="{% url 'create' %}" method="POST" accept-charset="utf-8">
+							{% csrf_token %}
+							<input type="text" name="title" placeholder="Tambah aktivitas"/>
+							<input type="submit" value="Tambah" id="submit"/>
+						</form>
+					</header>
+
+					<section class="main">
+						{% if items%}
+							{% for item in items %}
+								<div class="todo-item">
+									<form action="{% url 'update' item.id %}" method="POST" accept-charset="utf-8">
+										{% csrf_token %}	
+										<input type="checkbox" value="" name="status" onclick="this.form.submit()" {% if item.status %}checked{% endif %} />
+										<label>{{item.title}}</label>
+										<a href="{% url 'delete' item.id%}" class="destroy">Delete</a>
+									</form>
+								</div>
+							{% endfor %}
+						{% endif %}
+					</section>
+			
+					<footer class="footer">
+						<a href="{% url 'index' %}" class="selected">All</a>
+						<a href="{% url 'done' %}" class="selected">Done</a>
+						<a href="{% url 'pending' %}" class="selected">Pending</a>
+						<a href="{% url 'delete_all' %}" id="delete-all">Delete All</a>
+					</footer>
+
+			</div>	
+
+		</section>
+
+	</body>
+
+</html>

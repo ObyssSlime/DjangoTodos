@@ -1,0 +1,62 @@
+#delete-all {
+	background-color: #F08080;
+	color: white;
+	display: block;
+}
+
+#submit {
+	color: #5F9EA0;
+	border: 2px solid #5F9EA0;
+}
+
+.destroy {
+	background-color: #F08080;
+	border-radius: 0px 10px 10px 0px;
+	color: white;
+	float: right;
+	font-size: 12px;
+	padding: 4px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+}
+
+.main {
+	margin: 30px;
+}
+
+.todo-app-background {
+	background-color: white;
+	border-radius: 50px;
+	padding: 100px;
+	margin: 100px 300px;
+}
+
+.todo-app-foreground {
+	background-color: #DCDCDC;
+	border-width: 50px 0px;
+	border-style: solid;
+	border-color: #5F9EA0;
+}
+
+.todo-item {
+	background-color: #FFFAFA;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+a {
+	color: #5F9EA0;
+	text-decoration: none;
+}
+
+body {
+	background-color: #5F9EA0;
+	color: #5F9EA0;
+}
+
