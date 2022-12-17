@@ -4,9 +4,15 @@ A program that is part of a plan in the form of a list of tasks that need to be 
 
 ## Screenshots
 
-![App Screenshot](https://github.com/ObyssSlime/GithubImages/blob/main/2022-12-16_18-47.png?raw=true)
+![App Screenshot](https://raw.githubusercontent.com/ObyssSlime/GithubImages/main/2022-12-16_18-47.png?token=GHSAT0AAAAAAB4OFCRFOOFL325DAWQ6WUVOY45FVQA)
 
-![App Screenshot](https://github.com/ObyssSlime/GithubImages/blob/main/2022-12-16_18-47_1.png?raw=true)
+![App Screenshot](https://raw.githubusercontent.com/ObyssSlime/GithubImages/main/2022-12-16_18-47_1.png?token=GHSAT0AAAAAAB4OFCREHRLCZFWGP63F7PEMY45FWYQ)
+
+## Tech Stack
+
+**Client:** HTML, CSS
+
+**Server:** Django
 
 ## Installation
 
