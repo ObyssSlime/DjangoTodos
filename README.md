@@ -4,9 +4,9 @@ A program that is part of a plan in the form of a list of tasks that need to be 
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/ObyssSlime/DjangoTodos/main/raw/images/2022-12-16_18-47.png)
+![App Screenshot](https://raw.githubusercontent.com/ObyssSlime/DjangoTodos/main/raw/images/django_todos.png)
 
-![App Screenshot](https://raw.githubusercontent.com/ObyssSlime/DjangoTodos/main/raw/images/2022-12-16_18-47_1.png)
+![App Screenshot](https://raw.githubusercontent.com/ObyssSlime/DjangoTodos/main/raw/images/django_todos2.png)
 
 ## Tech Stack
 
